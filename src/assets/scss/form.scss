@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  .form-container {
+    display: flex;
+    align-items: left;
+    background-color: rgb(251, 254, 251);
+    flex-direction: column;
+
+    .user-container {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 10px;
+      label {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+    }
+
+    .selection-container {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 10px;
+
+      .selection-question {
+        margin-bottom: 5px;
+      }
+      select {
+        margin-bottom: 10px;
+      }
+    }
+
+    .radio-container {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 10px;
+
+      .radio-question {
+        display: flex;
+        margin-bottom: 5px;
+      }
+      .radio-selection {
+        display: flex;
+        flex-direction: column;
+        label {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .checkbox-container {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 10px;
+      .checkbox-question {
+        display: flex;
+        margin-bottom: 5px;
+      }
+
+      .checkbox-selection {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    p {
+      margin-left: 10px;
+      margin-bottom: 0px;
+    }
+    textarea {
+      margin: 10px 10px;
+    }
+
+    button {
+      margin: 10px 10px;
+      width: 46.5vh;
+      background-color: rgb(14, 187, 14);
+      border: none;
+      height: 4vh;
+    }
+  }
+}

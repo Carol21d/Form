@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.container .form-container {
+  display: flex;
+  align-items: left;
+  background-color: rgb(251, 254, 251);
+  flex-direction: column;
+}
+.container .form-container .user-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.container .form-container .user-container label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.container .form-container .user-container input {
+  margin-bottom: 10px;
+}
+.container .form-container .selection-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.container .form-container .selection-container .selection-question {
+  margin-bottom: 5px;
+}
+.container .form-container .selection-container select {
+  margin-bottom: 10px;
+}
+.container .form-container .radio-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.container .form-container .radio-container .radio-question {
+  display: flex;
+  margin-bottom: 5px;
+}
+.container .form-container .radio-container .radio-selection {
+  display: flex;
+  flex-direction: column;
+}
+.container .form-container .radio-container .radio-selection label {
+  margin-bottom: 10px;
+}
+.container .form-container .checkbox-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.container .form-container .checkbox-container .checkbox-question {
+  display: flex;
+  margin-bottom: 5px;
+}
+.container .form-container .checkbox-container .checkbox-selection {
+  display: flex;
+  flex-direction: column;
+}
+.container .form-container p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.container .form-container textarea {
+  margin: 10px 10px;
+}
+.container .form-container button {
+  margin: 10px 10px;
+  width: 46.5vh;
+  background-color: rgb(14, 187, 14);
+  border: none;
+  height: 4vh;
+}
+
+body {
+  width: 98%;
+  height: 100%;
+  align-items: center;
+  background-color: rgb(7, 183, 75);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch":"npx sass --watch src/assets/scss/styles.scss:public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carol21d/Form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carol21d/Form/issues"
+  },
+  "homepage": "https://github.com/Carol21d/Form#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
